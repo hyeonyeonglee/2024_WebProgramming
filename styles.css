@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+img[name="airbnbTitle"]{
+    width: 800px;
+    height: 300px;
+}
+
+h3,h2{
+    width: 800px; 
+    text-align: justify; 
+    margin: 16px auto; 
+    line-height: 1.8; 
+    
+}
+
+p{
+    width: 800px; 
+    text-align: justify; 
+    margin: 16px auto; 
+    line-height: 1.8;
+    
+}
+
+ul{
+    width: 800px; 
+    text-align: justify; 
+    margin: 16px auto; 
+    line-height: 1.8;
+}
+
+.time-since-birth {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    z-index: 1000;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.highlight {
+    font-size: 1.2em; 
+    font-weight: bold; 
+    color: black; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    display: none;
+    padding: 2em;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.widget {
+    position: fixed;
+    top: 200px; 
+    right: 20px; 
+    width: 200px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget ul li {
+    margin: 10px 0;
+}
+
+.widget ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.widget ul li a:hover {
+    text-decoration: underline;
+}
